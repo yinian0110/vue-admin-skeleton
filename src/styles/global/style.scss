@@ -1,0 +1,28 @@
+@import 'libraries/normalize';
+@import '../theme/common/vars';
+@import '../theme/mixins/scrollbar';
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+html {
+  @include scrollbar();
+}
+
+body {
+  color: $text-color;
+  background: $body-background;
+}
+
+figure {
+  margin: 0;
+}
