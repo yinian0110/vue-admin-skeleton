@@ -2,7 +2,7 @@
 
 ### npm run dev || npm run server
 
-# npm run lint --fix 
+### npm run lint --fix 
 
-# npm run build
+### npm run build
 
